@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="center" onmousemove="positionX(event.pageX , event.pageY)">
+    <canvas id="canvas" onmousemove="create(event.pageX , event.pageY)"></canvas>
+    </div>
+    <form name="form">
+        position x: <input type="number" name="x" readonly><br><br>
+        position y: <input type="number" name="y" readonly>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
